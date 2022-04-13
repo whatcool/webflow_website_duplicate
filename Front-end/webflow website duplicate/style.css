@@ -1,56 +1,112 @@
-a {
-    color: black;
+html {
+    font-family: Arial;
 }
 
-
-/* heading's anchor tags decoration starts */
-
-nav a {
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-#fix-anchor:hover {
-    text-decoration: none;
-}
-
-.allcontents {
-    width: 70%;
-}
-
-
-/* heading's anchor tags decoration ends */
-
-#start-course-box {
-    width: 70%;
-    background-color: rgb(223, 223, 225);
-}
-
-#heading {
-    font-size: 50px;
-}
-
-#decription {
-    font-size: 30px;
-}
-
-#section1 {
-    font-size: 30px;
-}
-
-h1 {
+.section-heading {
     font-size: 40px;
 }
 
-#subheading h3 {
-    font-family: fantasy;
+.section-subheading {
+    font-size: 30px;
 }
 
-#typography {
+.section-heading-content {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#nav-div1,
+#nav-div2,
+#nav-div3 {
+    display: inline-block;
+}
+
+#nav-div1 {
+    font-style: italic;
+    margin-left: 2vw;
+    text-decoration: none;
+}
+
+#nav-div2 {
+    margin-left: 4vw;
+}
+
+#nav-div3 {
+    margin-left: 85vw;
+}
+
+#nav-div1 a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 2px 0px;
+}
+
+#nav-div2 a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 4px 0px;
+}
+
+#nav-div1 a:hover {
     color: blue;
+}
+
+#nav-div2 a:hover {
+    color: blue;
+}
+
+header {
+    margin-left: 2vw;
+    height: 50vw;
+    width: 70vw;
+    background-size: cover;
+    display: inline-block;
+}
+
+#header-heading {
+    font-size: 60px;
+}
+
+#header-subheading {
     font-size: 30px;
+}
+
+#course-box {
+    background-color: rgb(212, 212, 214);
+    height: fit-content;
+    width: fit-content;
+    padding-bottom: 4px;
+    /* margin-bottom: 80px; */
+}
+
+#free-course {
+    color: aliceblue;
+    background-color: blue;
+    margin-left: 5%;
+    margin-right: 75%;
+    padding: 4px 0px 4px 4px;
+}
+
+#freecourse-content {
+    margin-left: 5%;
+}
+
+#author {
+    width: 25vw;
+    display: inline-block;
+}
+
+#mainPicture {
+    height: 80vw;
+}
+
+#section1 {
+    margin-left: 2vw;
+    width: 70vw;
+    display: inline-block;
+}
+
+#social-media {
+    width: 25vw;
+    display: inline-block;
 }
