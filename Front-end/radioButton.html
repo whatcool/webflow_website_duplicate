@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radioButton</title>
+</head>
+
+<body>
+    <form>
+        <input type="radio"> Male<br>
+        <input type="radio"> Female<br>
+        <input type="radio"> Other<br>
+        <input type="submit">
+    </form>
+    <br>
+    <form>
+        <input type="radio" name="Gender"> Male<br>
+
+        <input type="radio" name="Gender"> Female<br>
+        <input type="radio" name="Gender"> Other <br>
+        <input type="submit">
+
+        <!--In this data collected by name is not forwarded to back-end-->
+        <!--because it does not have data to forward-->
+        <!--name is grouping the radio buttons-->
+
+    </form>
+    <br>
+    <form>
+        <input type="radio" name="Gender" value="male" checked> Male<br>
+        <!--checked by default and can be changed-->
+        <input type="radio" name="Gender" value="female"> Female<br>
+        <input type="radio" name="Gender" value="other"> Other <br>
+        <input type="submit">
+
+        <!--In this data collected by name is forwarded to back-end-->
+        <!--because it does have data to forward which is stored by value-->
+
+    </form>
+
+    <!--drop down list-->
+    <p>
+        <select name="moth_selected">
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+        </select>
+    </p>
+    <br>
+    <p>
+        <select name="moth_selected">
+            <option>Jan</option>
+            <option>Feb</option>
+            <option selected>Mar</option>   <!--this will show the Mar on the drop down box-->
+            <option>Apr</option>
+        </select>
+    </p>
+    <br>
+    <p>
+        <select name="moth_selected" multiple>  <!--It can select more than one options (use ctrl)-->
+            <option>Jan</option>
+            <option>Feb</option>            
+            <option selected>Mar</option>
+            <option>Apr</option>
+        </select>
+    </p>
+</body>
+
+</html>

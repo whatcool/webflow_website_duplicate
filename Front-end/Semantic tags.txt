@@ -1,0 +1,40 @@
+List of new semantic elements
+The semantic elements added in HTML5 are:
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+________________________________________________________________________
+<header></header>
+<section>
+	<article>
+		<figure>
+			<img>
+			<figcaption></figcaption>
+		</figure>
+	</article>
+</section>
+<footer></footer>
+
+_________________________________________________________________________
+<div id="header"></div>
+<div class="section">
+	<div class="article">
+		<div class="figure">
+			<img>
+			<div class="figcaption"></div>
+		</div>
+	</div>
+</div>
+<div id="footer"></div>

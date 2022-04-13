@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+
+<body>
+
+    <form>
+        <!--form is used to collect data-->
+
+        <div>
+            <label for="username">
+                Useranme
+            </label>
+            <br>
+            <input type="text" id="username" required placeholder="abc@example.com">
+        </div>
+        <div>
+            <label for="country">
+                Country
+            </label>
+            <br>
+            <input type="text" id="country" name="country" value="India" disabled>
+            <!--here name forwards the data input to other program (to back-end)
+                If we do not put name then the data cannot be forwarded to back-end part-->
+            <!--value puts the defalt value-->
+            <!--disabled, disables the right to change the default value by the user-->
+        </div>
+        <div>
+            <label for="password">
+                Password
+            </label>
+            <br>
+            <input type="password" id="password" required>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

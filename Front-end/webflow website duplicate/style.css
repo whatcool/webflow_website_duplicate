@@ -1,0 +1,51 @@
+a {
+    color: black;
+}
+
+
+/* heading's anchor tags decoration starts */
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#fix-anchor:hover {
+    text-decoration: none;
+}
+
+.allcontents {
+    width: 70%;
+}
+
+
+/* heading's anchor tags decoration ends */
+
+#heading {
+    font-size: 50px;
+}
+
+#decription {
+    font-size: 30px;
+}
+
+#section1 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#subheading h3 {
+    font-family: fantasy;
+}
+
+#typography {
+    color: blue;
+    font-size: 30px;
+}

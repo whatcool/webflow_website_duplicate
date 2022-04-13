@@ -1,0 +1,8 @@
+div
+p
+heading tag
+		all these are block because they start with new line
+
+img
+anchor tag (<a>)
+		all these are inline because they continue in the same line 
