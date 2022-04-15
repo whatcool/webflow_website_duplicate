@@ -1,0 +1,16 @@
+There are 5 types of Positions in CSS:
+1. Static
+2. Relative
+3. Absolute
+4. Fixed
+5. Sticky
+
+Static - normal position
+Relative - relative to its normal position. The noraml space which is emty now
+after giving the raltive position will be blocked & will not be allocated
+to others.
+Absolute - relative position to its Parent(like parent div). No space is
+reserved for this element.
+Fixed - fixed with respect to the viewport and does not go up while scrolling,
+it is always there.
+Sticky - 

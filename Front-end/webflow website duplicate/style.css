@@ -1,112 +1,154 @@
-html {
-    font-family: Arial;
-}
-
-.section-heading {
-    font-size: 40px;
-}
-
-.section-subheading {
-    font-size: 30px;
-}
-
-.section-heading-content {
-    font-size: 20px;
-    font-weight: 100;
-}
-
-#nav-div1,
-#nav-div2,
-#nav-div3 {
-    display: inline-block;
-}
-
-#nav-div1 {
-    font-style: italic;
-    margin-left: 2vw;
-    text-decoration: none;
-}
-
-#nav-div2 {
-    margin-left: 4vw;
-}
-
-#nav-div3 {
-    margin-left: 85vw;
-}
-
-#nav-div1 a {
-    color: black;
-    text-decoration: none;
-    margin: 0px 2px 0px;
-}
-
-#nav-div2 a {
-    color: black;
-    text-decoration: none;
-    margin: 0px 4px 0px;
-}
-
-#nav-div1 a:hover {
-    color: blue;
-}
-
-#nav-div2 a:hover {
-    color: blue;
-}
-
-header {
-    margin-left: 2vw;
-    height: 50vw;
-    width: 70vw;
-    background-size: cover;
-    display: inline-block;
-}
-
-#header-heading {
-    font-size: 60px;
-}
-
-#header-subheading {
-    font-size: 30px;
-}
-
-#course-box {
-    background-color: rgb(212, 212, 214);
-    height: fit-content;
-    width: fit-content;
-    padding-bottom: 4px;
-    /* margin-bottom: 80px; */
-}
-
-#free-course {
-    color: aliceblue;
-    background-color: blue;
-    margin-left: 5%;
-    margin-right: 75%;
-    padding: 4px 0px 4px 4px;
-}
-
-#freecourse-content {
-    margin-left: 5%;
-}
-
-#author {
-    width: 25vw;
-    display: inline-block;
-}
-
-#mainPicture {
-    height: 80vw;
-}
-
-#section1 {
-    margin-left: 2vw;
-    width: 70vw;
-    display: inline-block;
-}
-
-#social-media {
-    width: 25vw;
-    display: inline-block;
-}
+    html {
+        font-family: Arial;
+    }
+    
+    .section-heading {
+        font-size: 40px;
+    }
+    
+    .section-subheading {
+        font-size: 30px;
+    }
+    
+    .section-heading-content {
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+    #nav-div1,
+    #nav-div2,
+    #nav-div3 {
+        display: inline-block;
+    }
+    
+    #nav-div1 {
+        font-style: italic;
+        margin-left: 2vw;
+        text-decoration: none;
+    }
+    
+    #nav-div2 {
+        margin-left: 4vw;
+    }
+    
+    #nav-div3 {
+        margin-left: 85vw;
+    }
+    
+    #nav-div1 a {
+        color: black;
+        text-decoration: none;
+        margin: 0px 2px 0px;
+    }
+    
+    #nav-div2 a {
+        color: black;
+        text-decoration: none;
+        margin: 0px 4px 0px;
+    }
+    
+    #nav-div1 a:hover {
+        color: blue;
+    }
+    
+    #nav-div2 a:hover {
+        color: blue;
+    }
+    
+    header {
+        margin-left: 2vw;
+        height: 50vw;
+        width: 70vw;
+        background-size: cover;
+        display: inline-block;
+    }
+    
+    #header-heading {
+        font-size: 60px;
+    }
+    
+    #header-subheading {
+        font-size: 30px;
+    }
+    
+    #course-box {
+        background-color: rgb(212, 212, 214);
+        border-radius: 8px;
+        height: fit-content;
+        width: fit-content;
+        padding-bottom: 4px;
+        /* margin-bottom: 80px; */
+    }
+    
+    #free-course {
+        color: aliceblue;
+        background-color: blue;
+        margin-left: 5%;
+        margin-right: 75%;
+        padding: 4px 0px 4px 4px;
+    }
+    
+    #freecourse-content {
+        margin-left: 5%;
+    }
+    
+    aside {
+        vertical-align: top;
+    }
+    
+    #author {
+        width: 25vw;
+        display: inline-block;
+    }
+    
+    #mainPicture {
+        height: 80vw;
+    }
+    
+    #section1 {
+        margin-left: 2vw;
+        width: 70vw;
+        position: relative;
+        display: inline-block;
+    }
+    
+    #social-media {
+        width: 25vw;
+        position: sticky;
+        display: inline-block;
+    }
+    
+    #section2 {
+        margin-left: 2vw;
+        width: 70vw;
+        display: inline-block;
+    }
+    
+    #rec_books {
+        width: 25vw;
+        display: inline-block;
+    }
+    
+    #icon-heading a {
+        color: black;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #icon-content a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #icon-content {
+        border-bottom: 2px solid black;
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+    
+    #hrLine {
+        /* width: 80vw; */
+        margin-left: 10vw;
+        margin-right: 15vw;
+        border-top: 4px solid rgb(129, 129, 208);
+    }
