@@ -1,0 +1,21 @@
+.section-heading {
+    font-size: 40px;
+}
+
+.section-heading-content {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.container {
+    display: flex;
+}
+
+section {
+    width: 70vw;
+}
+
+aside {
+    width: 25vw;
+    position: sticky;
+}

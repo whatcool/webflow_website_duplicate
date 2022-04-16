@@ -114,6 +114,7 @@
     
     #social-media {
         width: 25vw;
+        height: 100vh;
         position: sticky;
         display: inline-block;
     }

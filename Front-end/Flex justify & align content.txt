@@ -1,0 +1,23 @@
+justify-content: ;
+
+1. flex-end - push all the divs at the end of the container
+2. flex-strart - push all the divs at the strarting of the container.
+3. center - push all the divs between the center of the container, no gap between
+the divs.
+4. space around - give equal gaps between all the divs and the container 
+border also
+5. space-between - give equal gaps between all the divs but not give space
+between the divs and container border.
+
+
+align-items: ;
+
+1. flex-start - align all the elements at the starting and 
+	across the cross axis.
+2. flex-end - align all the elements at the end and 
+	across the cross axis.
+3. center - align all the elements at the center of the cross axis. 
+4. strecth - will stretch all the elements across the cross axis,
+5. baseline - put all the elements to the baseline across the cross axis.
+
+
