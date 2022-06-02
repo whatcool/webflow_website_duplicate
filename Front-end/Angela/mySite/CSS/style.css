@@ -1,0 +1,72 @@
+body {
+    /* text-align: center; */
+    margin: 0;
+}
+
+h1 {
+    margin: 0 auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Hubballi', cursive;
+}
+
+.top-container {
+    text-align: center;
+    /* position: relative; */
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #9BA3EB;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+}
+
+.hacker-img {
+    position: relative;
+    top: 50px;
+}
+
+.middle-container {
+    padding: 10px 0;
+    background-color: #E8F9FD;
+    margin-top: -20px;
+}
+
+.education {
+    margin: 0;
+    text-align: center;
+}
+
+#kv-img {
+    height: 20vw;
+    width: 60vh;
+    margin: 50px auto;
+    border-radius: 50px;
+}
+
+#ait-img {
+    height: 20vw;
+    width: 60vh;
+    margin-top: 50px;
+    border-radius: 50px;
+}

@@ -1,0 +1,11 @@
+.bg {
+    color: red;
+}
+
+#outer {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    padding: 2px;
+    margin: 4px;
+}
