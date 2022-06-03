@@ -1,6 +1,8 @@
 body {
     /* text-align: center; */
     margin: 0;
+    font-family: Arial;
+    font-size: 20px;
 }
 
 h1 {
@@ -16,7 +18,7 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Hubballi', cursive;
 }
 
@@ -28,6 +30,7 @@ h4 {
     background-color: #9BA3EB;
     /* font-family: 'Merriweather', serif; */
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 .top-cloud {
@@ -48,25 +51,95 @@ h4 {
 
 .middle-container {
     padding: 10px 0;
-    background-color: #E8F9FD;
-    margin-top: -20px;
+    margin-top: -40px;
+    color: #242F9B;
 }
 
 .education {
     margin: 0;
     text-align: center;
+    background-color: #DBDFFD;
+    /* padding-bottom: 20px; */
+    padding: 20px 0;
+    /* background-image: url(/Images/hacker.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgb(175, 171, 247), rgb(211, 246, 163));
 }
 
 #kv-img {
-    height: 20vw;
-    width: 60vh;
+    height: 200px;
+    width: 200px;
     margin: 50px auto;
-    border-radius: 50px;
+    /* border-radius: 50px; */
+    position: relative;
+    left: 200px;
 }
 
 #ait-img {
-    height: 20vw;
-    width: 60vh;
+    height: 200px;
+    width: 200px;
     margin-top: 50px;
     border-radius: 50px;
+    position: relative;
+    right: 200px;
+}
+
+.education p {
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.hsc {
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+
+.ssc {
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+
+.ait {
+    position: relative;
+    right: 200px;
+}
+
+.additional-skills {
+    text-align: center;
+    background-color: #E3FCBF;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #14C38E;
+    position: relative;
+}
+
+.responsibility {
+    text-align: center;
+    background-color: #7FB5FF;
+    padding: 10px 0;
+    position: relative;
+    height: 30vw;
+}
+
+.basic-knowledge {
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+}
+
+.tools {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+}
+
+#skill-img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 500px;
 }
